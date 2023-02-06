@@ -34,35 +34,10 @@ function App() {
       <section className='w-[100vw] h-[100vh] bg-black py-[5rem]'>
         <h1 className='text-white text-7xl font-[700] text-center'>Let's get <span className='focusTexts'>moving</span></h1>
 
-        <div className='w-[93vw] h-[30rem] bg-[#131415] m-auto my-[7rem] grid grid-cols-3'>
-          <PricesCard
-          head="Small"
-          subHead="Best for partnering with a single product team"
-          ul="4 User insight packages each month"
-          li1="interviews with 4 users"
-          li2="Expert analysis of each interview"
-          li3="Monthly team call to review and consolidate understanding"
-          li4="Summary shared as an interview snapshot"
-          price="€1199 per month"
-          />
-
-          <PricesCard
-          head="Small"
-          subHead="Best for partnering with a single product team"
-          ul="4 User insight packages each month"
-          li1="interviews with 4 users"
-          li2="Expert analysis of each interview"
-          li3="Monthly team call to review and consolidate understanding"
-          li4="Summary shared as an interview snapshot"
-          price="€1199 per month"
-          />
-
-          <PricesCard
-          head="Large"
-          subHead="Looking for even more of the good stuff?"
-          ul="We can work on a custom engagement, just reach out."
-          />
+        <div className='w-[95vw] h-[35rem] bg-[#131415] m-auto'>
+          <PricesCard/>
         </div>
+        
       </section>
     </div>
   )

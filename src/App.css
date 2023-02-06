@@ -13,7 +13,7 @@
 }
 
 body{
-  overflow-x: hidden;
+  @apply w-screen h-screen overflow-x-hidden
 }
 
 .focusText{
@@ -26,4 +26,15 @@ body{
   background: linear-gradient(135deg, #6968f7, #df4885);
   color: transparent;
   background-clip: text;
+}
+
+.cards{
+  @apply bg-[#2c2c30]
+}
+
+.list{
+  list-style: disc;
+  line-height: 1.8rem;
+  @apply ml-[2rem]
+  
 }
