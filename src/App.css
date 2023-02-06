@@ -32,9 +32,25 @@ body{
   @apply bg-[#2c2c30]
 }
 
+.cardsList div:nth-child(1){
+  background: linear-gradient(135deg, #6968f7, #df4885);
+}
+
 .list{
   list-style: disc;
   line-height: 1.8rem;
   @apply ml-[2rem]
   
+}
+
+.cardsList div:nth-child(3) .list{
+  list-style: none;
+}
+
+.cardsList div:nth-child(3) input{
+  @apply mt-[13rem]
+}
+
+.cardsList div:nth-child(3) h2{
+  @apply mb-[1rem]
 }

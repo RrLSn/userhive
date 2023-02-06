@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Approach from './components/Approach'
+import Footer from './components/Footer'
 import PricesCard from './components/PricesCard'
 
 function App() {
@@ -31,13 +32,14 @@ function App() {
         </div>
       </section>
 
-      <section className='w-[100vw] h-[100vh] bg-black py-[5rem]'>
+      <section className='w-[100vw] h-[125vh] bg-black py-[5rem]'>
         <h1 className='text-white text-7xl font-[700] text-center'>Let's get <span className='focusTexts'>moving</span></h1>
 
-        <div className='w-[95vw] h-[35rem] bg-[#131415] m-auto'>
+        <div className='w-[95vw] h-[34rem] bg-[#131415] m-auto'>
           <PricesCard/>
         </div>
         
+        <Footer/>
       </section>
     </div>
   )
