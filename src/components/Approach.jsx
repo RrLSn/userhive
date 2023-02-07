@@ -1,11 +1,37 @@
 import React from 'react'
 
-const Approach = ({img, title, desc}) => {
+const Approach = () => {
+    const approachArr = [
+        {
+            img : "",
+            title : "Continuous discovery",
+            desc : "We do users interviews with your customers or prospectives each week, so your team get constant input to their decisions. If a new question pops up, you will start getting answers from customers in less than a week."
+        },
+        {
+            img : "",
+            title : "Partnership",
+            desc : "We don't deliver a report and walk away. We work hand in hand with your team, meeting regularly to understand the newest changes in direction and burning questions that need answering."
+        },
+        {
+            img : "",
+            title : "No hurdles",
+            desc : "Know how much it'll cost before you even email us. Pay with your credit card, or we can send an invoice. Pause the engagement with as little as an email. We want it to be as easy as possible to work with us."
+        },
+        {
+            img : "",
+            title : "Build customer empathy",
+            desc : "Empathy with your customers doesn't happen in a day. Our work creates an ever-deepening understanding of your customers within your product teams. We produce artefacts that your teams will refer to and share again and again."
+        }
+    ]
   return (
-    <div className='w-[29rem] h-[18rem] p-[1rem] rounded-md hover:bg-[#2c2c30] cursor-pointer'>
-        <div className='w-[4rem] h-[4rem] rounded-full bg-[#6968f7] my-[1rem]'></div>
-        <h2 className='text-[1.2rem] font-[800] mb-[1rem]'>{title}</h2>
-        <p className='text-[#999999] font-[500]'>{desc}</p>
+    <div className='flex gap-3 mr-[2rem]'>
+        {approachArr.map ((Approaches) => 
+        (<ApproachInfo
+        img = {Approaches.img}
+        title = {Approaches.title}
+        desc = {Approaches.desc}
+        />
+        ))}
     </div>
   )
 }

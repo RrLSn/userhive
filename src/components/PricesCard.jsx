@@ -33,8 +33,8 @@ const PricesCard = () => {
     <div  className='text-white h-[100%] flex my-[7rem] justify-between cardsList'>
         {priceArr.map ((priceCard) => 
         (<Cards 
-          title={priceCard.title} 
-          desc={priceCard.desc}
+          title = {priceCard.title} 
+          desc = {priceCard.desc}
           listHeader = {priceCard.listHeader}
           li1 = {priceCard.li1}
           li2 = {priceCard.li2}
