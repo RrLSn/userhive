@@ -1,8 +1,7 @@
 # CodeVillageClone
 
 # Demo
-[preview]()
-![screenshot]()
+[preview](https://chipper-valkyrie-e30954.netlify.app)
 
 # Contact
 If you want to contact me, you can reach me at
