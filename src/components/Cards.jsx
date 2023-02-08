@@ -13,7 +13,7 @@ const Cards = (props) => {
         <li className='list'>{props.li4}</li>
         </ul>
         <p className='text-2xl font-[700] my-[1.7rem]'>{props.price}</p>
-        <input type="button" value="Let's go" className='bg-[#5e5df0] w-[7rem] h-[2.5rem] rounded-full mx-[10rem] hover:bg-white hover:text-[#5e5df0] cursor-pointer' />
+        <div className='w-[100%] flex justify-center'><input type="button" value="Let's go" className='bg-[#5e5df0] w-[7rem] h-[2.5rem] rounded-full hover:bg-white hover:text-[#5e5df0] cursor-pointer' /></div>
     </div>
   )
 }

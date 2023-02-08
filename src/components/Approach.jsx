@@ -25,7 +25,7 @@ const Approach = () => {
         }
     ]
   return (
-    <div className='flex gap-3 mr-[2rem] text-white'>
+    <div className='lg:flex gap-3 mr-[2rem] text-white'>
         {approachArr.map ((ApproachE) => 
         (<Approachinfo
             img = {ApproachE.img}

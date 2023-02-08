@@ -30,7 +30,7 @@ const PricesCard = () => {
     }
   ]
   return (
-    <div  className='text-white h-[100%] flex my-[7rem] justify-between cardsList'>
+    <div  className='text-white h-[100%] lg:flex my-[7rem] justify-between cardsList'>
         {priceArr.map ((priceCard) => 
         (<Cards 
           title = {priceCard.title} 
