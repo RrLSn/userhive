@@ -1,4 +1,5 @@
 import React from 'react'
+import Approachinfo from './Approachinfo'
 
 const Approach = () => {
     const approachArr = [
@@ -24,13 +25,13 @@ const Approach = () => {
         }
     ]
   return (
-    <div className='flex gap-3 mr-[2rem]'>
-        {approachArr.map ((Approaches) => 
-        (<ApproachInfo
-        img = {Approaches.img}
-        title = {Approaches.title}
-        desc = {Approaches.desc}
-        />
+    <div className='flex gap-3 mr-[2rem] text-white'>
+        {approachArr.map ((ApproachE) => 
+        (<Approachinfo
+            img = {ApproachE.img}
+            title2 = {ApproachE.title}
+            desc2 = {ApproachE.desc}
+          />
         ))}
     </div>
   )

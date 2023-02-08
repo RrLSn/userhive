@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Approach from './components/Approachinfo'
+import Approach from './components/Approach'
 import Footer from './components/Footer'
 import PricesCard from './components/PricesCard'
 
